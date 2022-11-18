@@ -1,0 +1,10 @@
+#Q1
+--------------a)
+A = c(10,13,15,18,20,24)
+WR = expand.grid(A,A,A)
+
+head(WR,5)
+tail(WR,5)
+
+-------------b)
+mean = apply(WR,1,mean)
